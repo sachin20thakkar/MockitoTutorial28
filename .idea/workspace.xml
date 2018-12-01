@@ -3,8 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="a4946006-99d3-42a0-8029-b8377ace30d9" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/in28minutes/business/ListTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/business/ListTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/business/TodoBusinessImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/business/TodoBusinessImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/in28minutes/data/api/TodoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/in28minutes/data/api/TodoService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplMockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplMockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/in28minutes/data/api/TodoServiceStub.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/in28minutes/data/api/TodoServiceStub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/in28minutes/business/TodoBusinessImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/in28minutes/business/TodoBusinessImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/in28minutes/data/api/TodoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/in28minutes/data/api/TodoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/in28minutes/business/TodoBusinessImplMockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/in28minutes/business/TodoBusinessImplMockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/in28minutes/data/api/TodoServiceStub.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/in28minutes/data/api/TodoServiceStub.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,11 +34,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TodoBusinessImplMockTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="TodoBusinessImplMockTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplMockTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+            <state relative-caret-position="355">
+              <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -40,20 +46,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrameworkMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <file leaf-file-name="TodoServiceStub.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/data/api/TodoServiceStub.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InvokeMethod.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="20" selection-start-line="20" selection-end-line="20" />
+            <state relative-caret-position="255">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#340#341#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,7 +80,7 @@
       <file leaf-file-name="TodoBusinessImplStubTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplStubTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
+            <state relative-caret-position="321">
               <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -88,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ListTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/ListTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+            <state relative-caret-position="382">
+              <caret line="68" column="45" lean-forward="true" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,26 +110,26 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReflectiveCallable.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TodoBusinessImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/business/TodoBusinessImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="253">
+              <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#249#250#0" expanded="true" />
                 <element signature="e#295#296#0" expanded="true" />
                 <element signature="e#416#424#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TodoService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/data/api/TodoService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -152,12 +153,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/in28minutes/mockito/FirstMockitoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/in28minutes/data/api/ToDoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/in28minutes/data/api/TodoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/in28minutes/business/TodoBusinessImpl.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplStubTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/in28minutes/business/ListTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/in28minutes/business/TodoBusinessImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/in28minutes/data/api/TodoService.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/in28minutes/data/api/TodoServiceStub.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplMockTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/in28minutes/business/ListTest.java" />
       </list>
     </option>
   </component>
@@ -371,12 +372,38 @@
               <item name="runners" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="mockito28course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mockito:mockito-all:1.10.19" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="mockito28course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mockito:mockito-all:1.10.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="mockito-all-1.10.19.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mockito28course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mockito:mockito-all:1.10.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="mockito-all-1.10.19.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mockito28course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.mockito:mockito-all:1.10.19" type="70bed36:NamedLibraryElementNode" />
+              <item name="mockito-all-1.10.19.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="mockito" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
     </panes>
   </component>
@@ -403,7 +430,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ListTest.bddAliases_UsingGivenWillReturn">
+  <component name="RunManager" selected="JUnit.TodoBusinessImplMockTest.letsTestDeleteNow">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -476,6 +503,29 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TodoBusinessImplMockTest.letsTestDeleteNow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mockito28course" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.in28minutes.business.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.in28minutes.business" />
+      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.TodoBusinessImplMockTest" />
+      <option name="METHOD_NAME" value="letsTestDeleteNow" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="TodoBusinessImplMockTest.retrieveTodosRelatedToSpringWithBDD" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mockito28course" />
       <extension name="coverage">
@@ -489,29 +539,6 @@
       <option name="PACKAGE_NAME" value="com.in28minutes.business" />
       <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.TodoBusinessImplMockTest" />
       <option name="METHOD_NAME" value="retrieveTodosRelatedToSpringWithBDD" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="TodoBusinessImplMockTest.retrieveTodosRelatedToSpringWithEmptyList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mockito28course" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.in28minutes.business.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.in28minutes.business" />
-      <option name="MAIN_CLASS_NAME" value="com.in28minutes.business.TodoBusinessImplMockTest" />
-      <option name="METHOD_NAME" value="retrieveTodosRelatedToSpringWithEmptyList" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -561,19 +588,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="JUnit.TodoBusinessImplMockTest.retrieveTodosRelatedToSpringWithEmptyList" />
       <item itemvalue="JUnit.ListTest" />
       <item itemvalue="JUnit.ListTest.listMockGetArgumentMatcherThrowException" />
       <item itemvalue="JUnit.TodoBusinessImplMockTest.retrieveTodosRelatedToSpringWithBDD" />
       <item itemvalue="JUnit.ListTest.bddAliases_UsingGivenWillReturn" />
+      <item itemvalue="JUnit.TodoBusinessImplMockTest.letsTestDeleteNow" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TodoBusinessImplMockTest.letsTestDeleteNow" />
         <item itemvalue="JUnit.ListTest.bddAliases_UsingGivenWillReturn" />
         <item itemvalue="JUnit.TodoBusinessImplMockTest.retrieveTodosRelatedToSpringWithBDD" />
         <item itemvalue="JUnit.ListTest" />
         <item itemvalue="JUnit.ListTest.listMockGetArgumentMatcherThrowException" />
-        <item itemvalue="JUnit.TodoBusinessImplMockTest.retrieveTodosRelatedToSpringWithEmptyList" />
       </list>
     </recent_temporary>
   </component>
@@ -592,29 +619,13 @@
       <workItem from="1543662211678" duration="991000" />
       <workItem from="1543666747213" duration="1504000" />
       <workItem from="1543668559827" duration="1251000" />
-      <workItem from="1543678136672" duration="1007000" />
+      <workItem from="1543678136672" duration="1605000" />
+      <workItem from="1543680408357" duration="597000" />
+      <workItem from="1543684019177" duration="1199000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ListTest - 2018.12.01 at 18h 17m 34s.xml">
-      <configuration name="ListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest - 2018.12.01 at 18h 19m 43s.xml">
-      <configuration name="ListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest - 2018.12.01 at 18h 20m 21s.xml">
-      <configuration name="ListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest - 2018.12.01 at 18h 22m 09s.xml">
-      <configuration name="ListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest - 2018.12.01 at 18h 23m 11s.xml">
-      <configuration name="ListTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ListTest - 2018.12.01 at 18h 25m 14s.xml">
-      <configuration name="ListTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ListTest - 2018.12.01 at 18h 26m 09s.xml">
       <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
@@ -627,9 +638,27 @@
     <history-entry file="ListTest - 2018.12.01 at 18h 27m 58s.xml">
       <configuration name="ListTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TodoBusinessImplMockTest_retrieveTodosRelatedToSpringWithBDD - 2018.12.01 at 21h 12m 25s.xml">
+      <configuration name="TodoBusinessImplMockTest.retrieveTodosRelatedToSpringWithBDD" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ListTest_bddAliases_UsingGivenWillReturn - 2018.12.01 at 21h 15m 50s.xml">
+      <configuration name="ListTest.bddAliases_UsingGivenWillReturn" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoBusinessImplMockTest_letsTestDeleteNow - 2018.12.01 at 22h 45m 52s.xml">
+      <configuration name="TodoBusinessImplMockTest.letsTestDeleteNow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoBusinessImplMockTest_letsTestDeleteNow - 2018.12.01 at 22h 46m 34s.xml">
+      <configuration name="TodoBusinessImplMockTest.letsTestDeleteNow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoBusinessImplMockTest_letsTestDeleteNow - 2018.12.01 at 22h 55m 18s.xml">
+      <configuration name="TodoBusinessImplMockTest.letsTestDeleteNow" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TodoBusinessImplMockTest_letsTestDeleteNow - 2018.12.01 at 22h 55m 34s.xml">
+      <configuration name="TodoBusinessImplMockTest.letsTestDeleteNow" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7993000" />
+    <option name="totallyTimeSpent" value="10387000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -644,21 +673,21 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26308724" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27114093" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
-      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3295302" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Coverage" order="3" side_tool="true" weight="0.3295302" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -669,32 +698,32 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32905984" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25637585" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32905984" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
       <window_info id="Image Layers" order="3" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Database" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3295302" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988604" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info id="Capture Tool" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32905984" />
+      <window_info active="true" anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.3295302" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -708,7 +737,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplMockTest.java</url>
-          <line>35</line>
+          <line>37</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -717,6 +746,81 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/statements/InvokeMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/ParentRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2907">
+          <caret line="226" column="43" selection-start-line="226" selection-start-column="43" selection-end-line="226" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runner/JUnitCore.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="833">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplStubTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/runners/BlockJUnit4ClassRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/business/TodoBusinessImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#416#424#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1156">
+          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplMockTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
@@ -962,36 +1066,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/data/api/ToService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/data/api/TodoService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="37" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/data/api/TodoServiceStub.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="10" column="34" selection-start-line="9" selection-start-column="15" selection-end-line="10" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/business/TodoBusinessImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#249#250#0" expanded="true" />
-            <element signature="e#295#296#0" expanded="true" />
-            <element signature="e#416#424#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1034,9 +1108,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/ListTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="68" column="45" lean-forward="true" selection-start-line="68" selection-start-column="45" selection-end-line="68" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/data/api/TodoService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/data/api/TodoServiceStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#340#341#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.10.19/mockito-all-1.10.19.jar!/org/mockito/Mockito.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="82" column="24" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+          <folding>
+            <element signature="e#3234#3235#0" expanded="true" />
+            <element signature="e#3292#3293#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplStubTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="321">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1044,20 +1157,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplMockTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/in28minutes/business/TodoBusinessImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="48" column="34" lean-forward="true" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
+        <state relative-caret-position="253">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#249#250#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#416#424#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/ListTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/in28minutes/business/TodoBusinessImplMockTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="78" lean-forward="true" selection-start-line="78" selection-end-line="78" />
+        <state relative-caret-position="355">
+          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
