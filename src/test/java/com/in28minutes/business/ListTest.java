@@ -7,6 +7,9 @@ import org.junit.Test;
 import static org.mockito.Matchers.anyInt;
 import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.when;
+import static org.mockito.BDDMockito.given;
+import static org.junit.Assert.assertThat;
+import static org.hamcrest.CoreMatchers.is;
 
 import java.util.List;
 
@@ -59,6 +62,17 @@ public class ListTest {
         listMock.get(0);
 
 
+
+    }
+    @Test
+    public void bddAliases_UsingGivenWillReturn() {
+        List<String> list = mock(List.class);
+
+        //given
+        given(list.get(anyInt())).willReturn("in28Minutes");
+
+        //then
+        assertThat("in28Minutes", is(list.get(0)));
 
     }
 }
